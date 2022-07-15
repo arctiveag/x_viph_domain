@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="DELETE">
+        <configuration_template/>
+        <connection_type>http_connection</connection_type>
+        <id>x_viph_domain.Github_Arctive</id>
+        <multiple_connections>false</multiple_connections>
+        <name>Github Arctive</name>
+        <parent/>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-15 08:55:01</sys_created_on>
+        <sys_id>0e6c864c1bf8d5109cd0117a3b4bcbf0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_viph_domain.Github_Arctive</sys_name>
+        <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+        <sys_update_name>sys_alias_0e6c864c1bf8d5109cd0117a3b4bcbf0</sys_update_name>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-15 08:57:11</sys_updated_on>
+        <type>connection</type>
+    </sys_alias>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</application>
+        <file_path/>
+        <instance_id>f318a75fdb6bcc54b847ac44d4961917</instance_id>
+        <instance_name>vifortest</instance_name>
+        <name>sys_alias_0e6c864c1bf8d5109cd0117a3b4bcbf0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias"><sys_alias action="INSERT_OR_UPDATE"><configuration_template/><connection_type>http_connection</connection_type><id>x_viph_domain.Github_Arctive</id><multiple_connections>false</multiple_connections><name>Github Arctive</name><parent/><retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy><sys_class_name>sys_alias</sys_class_name><sys_created_by>sn_adm_pmarty</sys_created_by><sys_created_on>2022-07-15 08:55:01</sys_created_on><sys_id>0e6c864c1bf8d5109cd0117a3b4bcbf0</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_viph_domain.Github_Arctive</sys_name><sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package><sys_policy/><sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope><sys_update_name>sys_alias_0e6c864c1bf8d5109cd0117a3b4bcbf0</sys_update_name><sys_updated_by>sn_adm_pmarty</sys_updated_by><sys_updated_on>2022-07-15 08:57:11</sys_updated_on><type>connection</type></sys_alias></record_update>]]></payload>
+        <payload_hash>1613282706</payload_hash>
+        <record_name>x_viph_domain.Github_Arctive</record_name>
+        <reverted_from/>
+        <source>340f03f81be499100bcf62c1ab4bcba6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-15 08:57:11</sys_created_on>
+        <sys_id>b1fc8acc1bf8d5109cd0117a3b4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182011382280000001</sys_recorded_at>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-15 08:57:11</sys_updated_on>
+        <type>Connection &amp; Credential Aliases</type>
+        <update_guid>79fc8accc3f8d510f80f474c004642a8</update_guid>
+        <update_guid_history>79fc8accc3f8d510f80f474c004642a8:1613282706,f17cce8c06f8d510e9f76fcaf0c91a66:306862457</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-15 08:58:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_alias">sys_alias</sys_db_object>
+        <sys_id>89f23f7d855b4ead979a5a6009fe4249</sys_id>
+        <sys_metadata>0e6c864c1bf8d5109cd0117a3b4bcbf0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_viph_domain.Github_Arctive</sys_name>
+        <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+        <sys_scope_delete display_value="">05268b3664014d7a8a31eaf15a7282e4</sys_scope_delete>
+        <sys_update_name>sys_alias_0e6c864c1bf8d5109cd0117a3b4bcbf0</sys_update_name>
+        <sys_update_version display_value="sys_alias_0e6c864c1bf8d5109cd0117a3b4bcbf0">b1fc8acc1bf8d5109cd0117a3b4bcba9</sys_update_version>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-15 08:58:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

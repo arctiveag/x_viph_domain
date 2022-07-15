@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Github Known Free Email Domains</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_viph_domain_github_known_free_email_domains</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-07 13:55:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>56844ead1b685d109cd0117a3b4bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Github Known Free Email Domains</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+        <sys_update_name>sys_app_module_56844ead1b685d109cd0117a3b4bcbb8</sys_update_name>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-07 13:55:33</sys_updated_on>
+        <timeline_page/>
+        <title>Github Known Free Email Domains</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</application>
+        <file_path/>
+        <instance_id>f318a75fdb6bcc54b847ac44d4961917</instance_id>
+        <instance_name>vifortest</instance_name>
+        <name>sys_app_module_56844ead1b685d109cd0117a3b4bcbb8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Github Known Free Email Domains</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_viph_domain_github_known_free_email_domains</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>sn_adm_pmarty</sys_created_by><sys_created_on>2022-07-07 13:55:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>56844ead1b685d109cd0117a3b4bcbb8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Github Known Free Email Domains</sys_name><sys_overrides/><sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package><sys_policy/><sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope><sys_update_name>sys_app_module_56844ead1b685d109cd0117a3b4bcbb8</sys_update_name><sys_updated_by>sn_adm_pmarty</sys_updated_by><sys_updated_on>2022-07-07 13:55:33</sys_updated_on><timeline_page/><title>Github Known Free Email Domains</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-913112991</payload_hash>
+        <record_name>Github Known Free Email Domains</record_name>
+        <reverted_from/>
+        <source>340f03f81be499100bcf62c1ab4bcba6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-07 13:55:33</sys_created_on>
+        <sys_id>56844ead1b685d109cd0117a3b4bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181d8f1cba60000001</sys_recorded_at>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-07 13:55:33</sys_updated_on>
+        <type>Module</type>
+        <update_guid>5e844ead2d685d10c1372168ff787eba</update_guid>
+        <update_guid_history>5e844ead2d685d10c1372168ff787eba:-913112991</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Github Known Free Email Domains">b62596ed1ba85d109cd0117a3b4bcba4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-07 15:08:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>1fdaf032e0ab4b12a22d5bd1b734cc39</sys_id>
+        <sys_metadata>56844ead1b685d109cd0117a3b4bcbb8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Github Known Free Email Domains</sys_name>
+        <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+        <sys_scope_delete display_value="">05268b3664014d7a8a31eaf15a7282e4</sys_scope_delete>
+        <sys_update_name>sys_app_module_56844ead1b685d109cd0117a3b4bcbb8</sys_update_name>
+        <sys_update_version display_value="sys_app_module_56844ead1b685d109cd0117a3b4bcbb8">56844ead1b685d109cd0117a3b4bcbbb</sys_update_version>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-07 15:08:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

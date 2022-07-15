@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>Get Free Email Domain</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>HubspotKnowlege- Known Free Email Domain [ Get Free Email Domain ]</qualified_name>
+        <rest_endpoint>https://f.hubspotusercontent40.net/hubfs/2832391/Marketing/Lead-Capture/free-domains-2.csv</rest_endpoint>
+        <rest_message display_value="HubspotKnowlege- Known Free Email Domain">0e72dbc31be015109cd0117a3b4bcb3c</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-12 11:28:18</sys_created_on>
+        <sys_id>82c21f431be015109cd0117a3b4bcb4e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Get Free Email Domain</sys_name>
+        <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+        <sys_update_name>sys_rest_message_fn_82c21f431be015109cd0117a3b4bcb4e</sys_update_name>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-12 11:28:54</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</application>
+        <file_path/>
+        <instance_id>f318a75fdb6bcc54b847ac44d4961917</instance_id>
+        <instance_name>vifortest</instance_name>
+        <name>sys_rest_message_fn_82c21f431be015109cd0117a3b4bcb4e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Get Free Email Domain</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>HubspotKnowlege- Known Free Email Domain [ Get Free Email Domain ]</qualified_name><rest_endpoint>https://f.hubspotusercontent40.net/hubfs/2832391/Marketing/Lead-Capture/free-domains-2.csv</rest_endpoint><rest_message display_value="HubspotKnowlege- Known Free Email Domain">0e72dbc31be015109cd0117a3b4bcb3c</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>sn_adm_pmarty</sys_created_by><sys_created_on>2022-07-12 11:28:18</sys_created_on><sys_id>82c21f431be015109cd0117a3b4bcb4e</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Get Free Email Domain</sys_name><sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package><sys_policy/><sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope><sys_update_name>sys_rest_message_fn_82c21f431be015109cd0117a3b4bcb4e</sys_update_name><sys_updated_by>sn_adm_pmarty</sys_updated_by><sys_updated_on>2022-07-12 11:28:54</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>1675972494</payload_hash>
+        <record_name>Get Free Email Domain</record_name>
+        <reverted_from/>
+        <source>340f03f81be499100bcf62c1ab4bcba6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-12 11:28:54</sys_created_on>
+        <sys_id>f2e2d7c31be015109cd0117a3b4bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181f22b51c50000001</sys_recorded_at>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-12 11:28:54</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>bae2d7c3c2e01510acb6772feae23683</update_guid>
+        <update_guid_history>bae2d7c3c2e01510acb6772feae23683:1675972494,6de25307cbe0151028b86b418fb90458:1937951630,f7d213073ae0151058ced104224ae4f5:-1558469389,86c21f437ae01510700e3c309854c850:-1730669589</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-12 11:40:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>6164620fc39f403cac19a64ac82b7c04</sys_id>
+        <sys_metadata>82c21f431be015109cd0117a3b4bcb4e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Free Email Domain</sys_name>
+        <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+        <sys_scope_delete display_value="">05268b3664014d7a8a31eaf15a7282e4</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_82c21f431be015109cd0117a3b4bcb4e</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_82c21f431be015109cd0117a3b4bcb4e">f2e2d7c31be015109cd0117a3b4bcb84</sys_update_version>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-12 11:40:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

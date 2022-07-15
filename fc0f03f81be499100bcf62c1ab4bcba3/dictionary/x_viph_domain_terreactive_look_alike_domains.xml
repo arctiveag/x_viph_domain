@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="TerreActive Look Alike Domains" max_length="40" name="x_viph_domain_terreactive_look_alike_domains" sizeclass="48760" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=domain" label="domain" max_length="40" name="u_domain" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=original_domain" label="original_domain" max_length="40" name="u_original_domain" type="string"/>
+    </element>
+</database>

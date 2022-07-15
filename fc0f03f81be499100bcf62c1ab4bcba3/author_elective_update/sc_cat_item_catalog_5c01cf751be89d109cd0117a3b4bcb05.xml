@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Domain Whitelisting">18018f751be89d109cd0117a3b4bcbff</sc_cat_item>
+        <sc_catalog display_value="Service Catalog Vifor Pharma">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-08 12:58:14</sys_created_on>
+        <sys_id>5c01cf751be89d109cd0117a3b4bcb05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog Vifor Pharma.Domain Whitelisting</sys_name>
+        <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_5c01cf751be89d109cd0117a3b4bcb05</sys_update_name>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-08 12:58:14</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</application>
+        <file_path/>
+        <instance_id>f318a75fdb6bcc54b847ac44d4961917</instance_id>
+        <instance_name>vifortest</instance_name>
+        <name>sc_cat_item_catalog_5c01cf751be89d109cd0117a3b4bcb05</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Domain Whitelisting">18018f751be89d109cd0117a3b4bcbff</sc_cat_item><sc_catalog display_value="Service Catalog Vifor Pharma">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>sn_adm_pmarty</sys_created_by><sys_created_on>2022-07-08 12:58:14</sys_created_on><sys_id>5c01cf751be89d109cd0117a3b4bcb05</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog Vifor Pharma.Domain Whitelisting</sys_name><sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package><sys_policy/><sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope><sys_update_name>sc_cat_item_catalog_5c01cf751be89d109cd0117a3b4bcb05</sys_update_name><sys_updated_by>sn_adm_pmarty</sys_updated_by><sys_updated_on>2022-07-08 12:58:14</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1442817089</payload_hash>
+        <record_name>Service Catalog Vifor Pharma.Domain Whitelisting</record_name>
+        <reverted_from/>
+        <source>340f03f81be499100bcf62c1ab4bcba6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-08 12:58:14</sys_created_on>
+        <sys_id>d8014fb51be89d109cd0117a3b4bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181dde3ac010000001</sys_recorded_at>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-08 12:58:14</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>10014fb578e89d10b186cc81b8ed2b9b</update_guid>
+        <update_guid_history>10014fb578e89d10b186cc81b8ed2b9b:1442817089</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog Vifor Pharma.Domain Whitelisting">5d51c3f51be89d109cd0117a3b4bcb47</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-08 12:59:40</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>02dd3506b89440e08078344ff0e12240</sys_id>
+        <sys_metadata>5c01cf751be89d109cd0117a3b4bcb05</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog Vifor Pharma.Domain Whitelisting</sys_name>
+        <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+        <sys_scope_delete display_value="">05268b3664014d7a8a31eaf15a7282e4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_5c01cf751be89d109cd0117a3b4bcb05</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_5c01cf751be89d109cd0117a3b4bcb05">d8014fb51be89d109cd0117a3b4bcb9b</sys_update_version>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-08 12:59:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
