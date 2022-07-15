@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>TerreActive Malicious Domains</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_viph_domain_terreactive_malicious_doma</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">da81d2b61b2210104670a7d23b4bcbb4</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-05 11:43:21</sys_created_on>
+        <sys_id>521393301b2899100bcf62c1ab4bcb46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Domain Terreactive Malicious Doma</sys_name>
+        <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+        <sys_update_name>sys_db_object_521393301b2899100bcf62c1ab4bcb46</sys_update_name>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-05 11:43:21</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</application>
+        <file_path/>
+        <instance_id>f318a75fdb6bcc54b847ac44d4961917</instance_id>
+        <instance_name>vifortest</instance_name>
+        <name>sys_db_object_521393301b2899100bcf62c1ab4bcb46</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>TerreActive Malicious Domains</label><live_feed_enabled>false</live_feed_enabled><name>x_viph_domain_terreactive_malicious_doma</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Import Set Row" name="sys_import_set_row">da81d2b61b2210104670a7d23b4bcbb4</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>sn_adm_pmarty</sys_created_by><sys_created_on>2022-07-05 11:43:21</sys_created_on><sys_id>521393301b2899100bcf62c1ab4bcb46</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Domain Terreactive Malicious Doma</sys_name><sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package><sys_policy/><sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope><sys_update_name>sys_db_object_521393301b2899100bcf62c1ab4bcb46</sys_update_name><sys_updated_by>sn_adm_pmarty</sys_updated_by><sys_updated_on>2022-07-05 11:43:21</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>1613788176</payload_hash>
+        <record_name>TerreActive Malicious Domains</record_name>
+        <reverted_from/>
+        <source>340f03f81be499100bcf62c1ab4bcba6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-05 11:43:21</sys_created_on>
+        <sys_id>da13d7301b2899100bcf62c1ab4bcb58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181ce2c0aa20000001</sys_recorded_at>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-05 11:43:21</sys_updated_on>
+        <type>Table</type>
+        <update_guid>5613d73022289910fcef43e3b4a50e58</update_guid>
+        <update_guid_history>5613d73022289910fcef43e3b4a50e58:1613788176</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-05 13:58:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>6bd1f34f04ca4f80a61258007e10a400</sys_id>
+        <sys_metadata>521393301b2899100bcf62c1ab4bcb46</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Domain Terreactive Malicious Doma</sys_name>
+        <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+        <sys_scope_delete display_value="">05268b3664014d7a8a31eaf15a7282e4</sys_scope_delete>
+        <sys_update_name>sys_db_object_521393301b2899100bcf62c1ab4bcb46</sys_update_name>
+        <sys_update_version display_value="sys_db_object_521393301b2899100bcf62c1ab4bcb46">da13d7301b2899100bcf62c1ab4bcb58</sys_update_version>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-05 13:58:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

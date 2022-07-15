@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <description>Send new blacklisted Domains list from import</description>
+        <event_name>x_viph_domain.newBlacklistedDomainAdded</event_name>
+        <fired_by>ViforDOM_ImportHelper</fired_by>
+        <queue/>
+        <suffix>newBlacklistedDomainAdded</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-11 09:42:13</sys_created_on>
+        <sys_id>1520f1fe1b6c91109cd0117a3b4bcb63</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_viph_domain.newBlacklistedDomainAdded</sys_name>
+        <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+        <sys_update_name>sysevent_register_1520f1fe1b6c91109cd0117a3b4bcb63</sys_update_name>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-11 11:29:23</sys_updated_on>
+        <table>sys_import_set</table>
+    </sysevent_register>
+</record_update>

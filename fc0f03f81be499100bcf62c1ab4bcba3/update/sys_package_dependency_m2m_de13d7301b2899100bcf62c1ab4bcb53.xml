@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">7c8152b61b2210104670a7d23b4bcb66</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-05 11:43:21</sys_created_on>
+        <sys_id>de13d7301b2899100bcf62c1ab4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-05 11:43:21</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

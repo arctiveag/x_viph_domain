@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_viph_domain.ViforDOM_ImportHelper</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>ViforDOM_ImportHelper</name>
+        <script><![CDATA[var ViforDOM_ImportHelper = Class.create();
+ViforDOM_ImportHelper.prototype = {
+	initialize: function() {
+	},
+
+	executeLoaderAndTransform: function(dataSourceSysId, transformMapName){
+		var dataSourceGr = new GlideRecord('sys_data_source');
+		if(dataSourceGr.get(dataSourceSysId)){
+			var result = new global.Vifor_DataSourceLoader().loadDataSourceAndTransformLoadedData(dataSourceGr, transformMapName);
+			if(!result.success){
+				gs.error('[ViforDom_ImportHelper] - Fail to load data source and transform loaded data!');
+			}
+			return result.importSetNumber;
+		}
+	},
+
+	removeAllOldAttachmentFromDataSource: function(dataSourceSysId, currentAttachmentSysId){
+		var attachmentGr = new GlideRecord('sys_attachment');
+		attachmentGr.addQuery('table_name', 'sys_data_source');
+		attachmentGr.addQuery('table_sys_id', dataSourceSysId);
+		attachmentGr.addQuery('sys_id', '!=', currentAttachmentSysId);
+		attachmentGr.setLimit(10);
+		attachmentGr.query();
+		while(attachmentGr.next()){
+			var attachmentAPI = new GlideSysAttachment();
+			attachmentAPI.deleteAttachment(attachmentGr.getUniqueValue());
+		}
+	},
+
+	sendEventWithNewBlacklistedDomains: function(importSetGr){
+		var newDomains = this.getAllNewDomainsFromLastImport(importSetGr.table_name.toString(), importSetGr.number.toString());
+		if(newDomains.length != 0){
+			gs.eventQueue('x_viph_domain.newBlacklistedDomainAdded', importSetGr, newDomains.join(','));
+		}
+	},
+
+	getAllNewDomainsFromLastImport: function(importTableName, importSetNumber){
+		var newDomains = [];
+		var importTableGr = new GlideRecord(importTableName);
+		importTableGr.addQuery('sys_import_set.number', importSetNumber);
+		importTableGr.addQuery('sys_import_state', 'inserted');
+		importTableGr.query();
+
+		while(importTableGr.next()){
+			newDomains.push(importTableGr.getValue('u_domain'));
+		}
+		return newDomains;
+	},
+
+	getAllDomainsThatHaveNotBeenUpdated: function(importSetGr, idPrefix){
+		var importSetArr = [];
+		var domainArr = [];
+
+		var importSetAllGr = new GlideRecord(importSetGr.table_name.toString());
+		importSetAllGr.addQuery('sys_import_set', importSetGr.getUniqueValue());
+		importSetAllGr.query();
+		while(importSetAllGr.next()){
+			importSetArr.push(idPrefix + importSetAllGr.getValue('u_domain'));
+		}
+
+		var domainGr = new GlideRecord('x_viph_domain_domain');
+		domainGr.addQuery('active', true);
+		domainGr.addQuery('id', 'STARTSWITH', idPrefix);
+		domainGr.query();
+		while(domainGr.next()){
+			domainArr.push(domainGr.getValue('id'));
+		}
+
+		var diff = domainArr.filter( function( el ) {
+			return importSetArr.indexOf( el ) < 0;
+		} );
+		
+		return diff;
+	},
+
+
+	type: 'ViforDOM_ImportHelper'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-06 13:42:36</sys_created_on>
+        <sys_id>15c7b4991ba41d109cd0117a3b4bcbec</sys_id>
+        <sys_mod_count>49</sys_mod_count>
+        <sys_name>ViforDOM_ImportHelper</sys_name>
+        <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+        <sys_update_name>sys_script_include_15c7b4991ba41d109cd0117a3b4bcbec</sys_update_name>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-15 07:46:36</sys_updated_on>
+    </sys_script_include>
+</record_update>

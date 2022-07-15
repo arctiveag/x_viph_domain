@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="last_updated" label="Last Updated" language="en" table="x_viph_domain_domain">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>last_updated</element>
+            <help/>
+            <hint/>
+            <label>Last Updated</label>
+            <language>en</language>
+            <name>x_viph_domain_domain</name>
+            <plural>Last Updated</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sn_adm_pmarty</sys_created_by>
+            <sys_created_on>2022-07-05 11:31:27</sys_created_on>
+            <sys_id>c460df7c1be499100bcf62c1ab4bcb9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Last Updated</sys_name>
+            <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+            <sys_update_name>sys_documentation_x_viph_domain_domain_last_updated_en</sys_update_name>
+            <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+            <sys_updated_on>2022-07-05 11:31:27</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

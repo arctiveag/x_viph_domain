@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <description/>
+        <event_name>x_viph_domain.potentialDomainsDeactivate</event_name>
+        <fired_by>all TableTransformMap onComplete Scripts</fired_by>
+        <queue/>
+        <suffix>potentialDomainsDeactivate</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-12 14:23:31</sys_created_on>
+        <sys_id>618aff0f1b6415109cd0117a3b4bcb32</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_viph_domain.potentialDomainsDeactivate</sys_name>
+        <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+        <sys_update_name>sysevent_register_618aff0f1b6415109cd0117a3b4bcb32</sys_update_name>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-13 08:30:34</sys_updated_on>
+        <table>sys_import_set</table>
+    </sysevent_register>
+</record_update>

@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>package_private</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>remove_domains</internal_name>
+        <label_cache>[{"name":"eb53fead-69fb-4472-8d38-0fc385660a6d.Record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eb53fead-69fb-4472-8d38-0fc385660a6d.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eb53fead-69fb-4472-8d38-0fc385660a6d.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"eb53fead-69fb-4472-8d38-0fc385660a6d.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"eb53fead-69fb-4472-8d38-0fc385660a6d.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"eb53fead-69fb-4472-8d38-0fc385660a6d.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Remove Domains</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-13 06:58:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>73ae9bd31be055109cd0117a3b4bcbcc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Remove Domains</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+        <sys_update_name>sys_hub_flow_73ae9bd31be055109cd0117a3b4bcbcc</sys_update_name>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-13 07:30:43</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=73ae9bd31be055109cd0117a3b4bcbcc"/>
+    <sys_variable_value action="DELETE" query="document_key=73ae9bd31be055109cd0117a3b4bcbcc"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=73ae9bd31be055109cd0117a3b4bcbcc"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=73ae9bd31be055109cd0117a3b4bcbcc"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=73ae9bd31be055109cd0117a3b4bcbcc^sys_idNOT IN3fae93171be055109cd0117a3b4bcb7b"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>73ae9bd31be055109cd0117a3b4bcbcc</id>
+        <name>Remove Domains</name>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-13 06:58:47</sys_created_on>
+        <sys_id>3fae93171be055109cd0117a3b4bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-13 06:58:47</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=3fae93171be055109cd0117a3b4bcb7b"/>
+    <sys_hub_flow_input action="DELETE" query="model=73ae9bd31be055109cd0117a3b4bcbcc^sys_idNOT IN23f52b9b1be055109cd0117a3b4bcb3b,eca4e35b1be055109cd0117a3b4bcbe8"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=GUID,uiTypeLabel=Sys ID (GUID),uiUniqueId=03586111-ccc9-492e-b286-a4ab292f621f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>data_source_sysid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">GUID</internal_type>
+        <label>Data Source SysId</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Remove Domains">73ae9bd31be055109cd0117a3b4bcbcc</model>
+        <model_id>73ae9bd31be055109cd0117a3b4bcbcc</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_73ae9bd31be055109cd0117a3b4bcbcc</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-13 07:30:43</sys_created_on>
+        <sys_id>23f52b9b1be055109cd0117a3b4bcb3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-13 07:30:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Approval Required DataSources_child0,child_name=Approval Required DataSources_child0,child_type=string,child_type_label=String,child_uiUniqueId=bd9645b3-d2d1-49c4-8d0d-50d3109d2a6c,co_type_name=FD24a4a3172ae0551087697b1982cfd952,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=7329acfd-720b-4b83-9510-e8f05d2a2d7e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>approval_required_datasources</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Approval Required DataSources</label>
+        <mandatory>true</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Remove Domains">73ae9bd31be055109cd0117a3b4bcbcc</model>
+        <model_id>73ae9bd31be055109cd0117a3b4bcbcc</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_73ae9bd31be055109cd0117a3b4bcbcc</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-13 07:24:47</sys_created_on>
+        <sys_id>eca4e35b1be055109cd0117a3b4bcbe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-13 07:24:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="DELETE" query="model=73ae9bd31be055109cd0117a3b4bcbcc"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=73ae9bd31be055109cd0117a3b4bcbcc"/>
+    <sys_hub_action_instance action="DELETE" query="flow=73ae9bd31be055109cd0117a3b4bcbcc^sys_idNOT IN23f52b9b1be055109cd0117a3b4bcb4b"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Remove Domains">73ae9bd31be055109cd0117a3b4bcbcc</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-13 07:30:43</sys_created_on>
+        <sys_id>23f52b9b1be055109cd0117a3b4bcb4b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-13 07:30:43</sys_updated_on>
+        <ui_id>eb53fead-69fb-4472-8d38-0fc385660a6d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=23f52b9b1be055109cd0117a3b4bcb4b"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3^id=23f52b9b1be055109cd0117a3b4bcb4b"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=23f52b9b1be055109cd0117a3b4bcb4b"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=23f52b9b1be055109cd0117a3b4bcb4b"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=73ae9bd31be055109cd0117a3b4bcbcc"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=73ae9bd31be055109cd0117a3b4bcbcc"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=73ae9bd31be055109cd0117a3b4bcbcc"/>
+    <sys_hub_flow_variable action="DELETE" query="model=73ae9bd31be055109cd0117a3b4bcbcc"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_73ae9bd31be055109cd0117a3b4bcbcc^sys_idNOT IN2ff52b9b1be055109cd0117a3b4bcb3f,a4a4e35b1be055109cd0117a3b4bcbef"/>
+    <sys_documentation action="DELETE">
+        <element>data_source_sysid</element>
+        <help/>
+        <hint/>
+        <label>Data Source SysId</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_73ae9bd31be055109cd0117a3b4bcbcc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-13 07:30:43</sys_created_on>
+        <sys_id>2ff52b9b1be055109cd0117a3b4bcb3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-13 07:30:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>approval_required_datasources</element>
+        <help/>
+        <hint/>
+        <label>Approval Required DataSources</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_73ae9bd31be055109cd0117a3b4bcbcc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-13 07:24:47</sys_created_on>
+        <sys_id>a4a4e35b1be055109cd0117a3b4bcbef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-13 07:24:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_73ae9bd31be055109cd0117a3b4bcbcc"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_73ae9bd31be055109cd0117a3b4bcbcc"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_73ae9bd31be055109cd0117a3b4bcbcc"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=73ae9bd31be055109cd0117a3b4bcbcc"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=73ae9bd31be055109cd0117a3b4bcbcc"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</application>
+        <file_path/>
+        <instance_id>f318a75fdb6bcc54b847ac44d4961917</instance_id>
+        <instance_name>vifortest</instance_name>
+        <name>sys_hub_flow_73ae9bd31be055109cd0117a3b4bcbcc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;compiler_build/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;internal_name&gt;remove_domains&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"eb53fead-69fb-4472-8d38-0fc385660a6d.Record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eb53fead-69fb-4472-8d38-0fc385660a6d.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eb53fead-69fb-4472-8d38-0fc385660a6d.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"eb53fead-69fb-4472-8d38-0fc385660a6d.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"eb53fead-69fb-4472-8d38-0fc385660a6d.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"eb53fead-69fb-4472-8d38-0fc385660a6d.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]&lt;/label_cache&gt;&lt;latest_snapshot/&gt;&lt;master_snapshot/&gt;&lt;name&gt;Remove Domains&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;system&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;draft&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sn_adm_pmarty&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-13 06:58:47&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;73ae9bd31be055109cd0117a3b4bcbcc&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Remove Domains&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Viforpharma Domains" source="x_viph_domain"&gt;fc0f03f81be499100bcf62c1ab4bcba3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Viforpharma Domains"&gt;fc0f03f81be499100bcf62c1ab4bcba3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_73ae9bd31be055109cd0117a3b4bcbcc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;sn_adm_pmarty&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-13 07:30:43&lt;/sys_updated_on&gt;&lt;type&gt;subflow&lt;/type&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=73ae9bd31be055109cd0117a3b4bcbcc"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=73ae9bd31be055109cd0117a3b4bcbcc"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=73ae9bd31be055109cd0117a3b4bcbcc"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=73ae9bd31be055109cd0117a3b4bcbcc"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=73ae9bd31be055109cd0117a3b4bcbcc^sys_idNOT IN3fae93171be055109cd0117a3b4bcb7b"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;73ae9bd31be055109cd0117a3b4bcbcc&lt;/id&gt;&lt;name&gt;Remove Domains&lt;/name&gt;&lt;sys_created_by&gt;sn_adm_pmarty&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-13 06:58:47&lt;/sys_created_on&gt;&lt;sys_id&gt;3fae93171be055109cd0117a3b4bcb7b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;sn_adm_pmarty&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-13 06:58:47&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=3fae93171be055109cd0117a3b4bcb7b"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=73ae9bd31be055109cd0117a3b4bcbcc^sys_idNOT IN23f52b9b1be055109cd0117a3b4bcb3b,eca4e35b1be055109cd0117a3b4bcbe8"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=GUID,uiTypeLabel=Sys ID (GUID),uiUniqueId=03586111-ccc9-492e-b286-a4ab292f621f&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;data_source_sysid&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;GUID&lt;/internal_type&gt;&lt;label&gt;Data Source SysId&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Remove Domains"&gt;73ae9bd31be055109cd0117a3b4bcbcc&lt;/model&gt;&lt;model_id&gt;73ae9bd31be055109cd0117a3b4bcbcc&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_73ae9bd31be055109cd0117a3b4bcbcc&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sn_adm_pmarty&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-13 07:30:43&lt;/sys_created_on&gt;&lt;sys_id&gt;23f52b9b1be055109cd0117a3b4bcb3b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Viforpharma Domains"&gt;fc0f03f81be499100bcf62c1ab4bcba3&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;sn_adm_pmarty&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-13 07:30:43&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;child_label=Approval Required DataSources_child0,child_name=Approval Required DataSources_child0,child_type=string,child_type_label=String,child_uiUniqueId=bd9645b3-d2d1-49c4-8d0d-50d3109d2a6c,co_type_name=FD24a4a3172ae0551087697b1982cfd952,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=7329acfd-720b-4b83-9510-e8f05d2a2d7e&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;approval_required_datasources&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Approval Required DataSources&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;65000&lt;/max_length&gt;&lt;model display_value="Remove Domains"&gt;73ae9bd31be055109cd0117a3b4bcbcc&lt;/model&gt;&lt;model_id&gt;73ae9bd31be055109cd0117a3b4bcbcc&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_73ae9bd31be055109cd0117a3b4bcbcc&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sn_adm_pmarty&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-13 07:24:47&lt;/sys_created_on&gt;&lt;sys_id&gt;eca4e35b1be055109cd0117a3b4bcbe8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Viforpharma Domains"&gt;fc0f03f81be499100bcf62c1ab4bcba3&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;sn_adm_pmarty&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-13 07:24:47&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=73ae9bd31be055109cd0117a3b4bcbcc"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=73ae9bd31be055109cd0117a3b4bcbcc"/&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=73ae9bd31be055109cd0117a3b4bcbcc^sys_idNOT IN23f52b9b1be055109cd0117a3b4bcb4b"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Look Up Record"&gt;9d09f99587003300663ca1bb36cb0ba3&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Remove Domains"&gt;73ae9bd31be055109cd0117a3b4bcbcc&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sn_adm_pmarty&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-13 07:30:43&lt;/sys_created_on&gt;&lt;sys_id&gt;23f52b9b1be055109cd0117a3b4bcb4b&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Viforpharma Domains"&gt;fc0f03f81be499100bcf62c1ab4bcba3&lt;/sys_scope&gt;&lt;sys_updated_by&gt;sn_adm_pmarty&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-13 07:30:43&lt;/sys_updated_on&gt;&lt;ui_id&gt;eb53fead-69fb-4472-8d38-0fc385660a6d&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=23f52b9b1be055109cd0117a3b4bcb4b"/&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3^id=23f52b9b1be055109cd0117a3b4bcb4b"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=23f52b9b1be055109cd0117a3b4bcb4b"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=23f52b9b1be055109cd0117a3b4bcb4b"/&gt;&lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=73ae9bd31be055109cd0117a3b4bcbcc"/&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=73ae9bd31be055109cd0117a3b4bcbcc"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=73ae9bd31be055109cd0117a3b4bcbcc"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=73ae9bd31be055109cd0117a3b4bcbcc"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_73ae9bd31be055109cd0117a3b4bcbcc^sys_idNOT IN2ff52b9b1be055109cd0117a3b4bcb3f,a4a4e35b1be055109cd0117a3b4bcbef"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;data_source_sysid&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Data Source SysId&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_73ae9bd31be055109cd0117a3b4bcbcc&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sn_adm_pmarty&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-13 07:30:43&lt;/sys_created_on&gt;&lt;sys_id&gt;2ff52b9b1be055109cd0117a3b4bcb3f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Viforpharma Domains" source="x_viph_domain"&gt;fc0f03f81be499100bcf62c1ab4bcba3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Viforpharma Domains"&gt;fc0f03f81be499100bcf62c1ab4bcba3&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;sn_adm_pmarty&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-13 07:30:43&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;approval_required_datasources&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Approval Required DataSources&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_73ae9bd31be055109cd0117a3b4bcbcc&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sn_adm_pmarty&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-13 07:24:47&lt;/sys_created_on&gt;&lt;sys_id&gt;a4a4e35b1be055109cd0117a3b4bcbef&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Viforpharma Domains" source="x_viph_domain"&gt;fc0f03f81be499100bcf62c1ab4bcba3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Viforpharma Domains"&gt;fc0f03f81be499100bcf62c1ab4bcba3&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;sn_adm_pmarty&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-13 07:24:47&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_73ae9bd31be055109cd0117a3b4bcbcc"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_73ae9bd31be055109cd0117a3b4bcbcc"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_73ae9bd31be055109cd0117a3b4bcbcc"/&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=73ae9bd31be055109cd0117a3b4bcbcc"/&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=73ae9bd31be055109cd0117a3b4bcbcc"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1637718677</payload_hash>
+        <record_name>Remove Domains</record_name>
+        <reverted_from/>
+        <source>340f03f81be499100bcf62c1ab4bcba6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-13 07:30:43</sys_created_on>
+        <sys_id>2ff52b9b1be055109cd0117a3b4bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181f6779ff30000001</sys_recorded_at>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-13 07:30:43</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>e3f52b9b1ee055101d2a561ddcc0df5c</update_guid>
+        <update_guid_history>e3f52b9b1ee055101d2a561ddcc0df5c:-1637718677,b0a4275b33e055102d07c85d206bd801:406689863,b7ae9317e7e055103d88dbe0404cdd82:-1338926658</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-13 07:33:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>200ae8ae54e24ad084c9cf5fea029b24</sys_id>
+        <sys_metadata>73ae9bd31be055109cd0117a3b4bcbcc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Remove Domains</sys_name>
+        <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+        <sys_scope_delete display_value="">05268b3664014d7a8a31eaf15a7282e4</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_73ae9bd31be055109cd0117a3b4bcbcc</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_73ae9bd31be055109cd0117a3b4bcbcc">2ff52b9b1be055109cd0117a3b4bcb5c</sys_update_version>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-13 07:33:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

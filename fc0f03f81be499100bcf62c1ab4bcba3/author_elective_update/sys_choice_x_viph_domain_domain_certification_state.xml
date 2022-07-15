@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="certification_state" table="x_viph_domain_domain" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>certification_state</element>
+            <name>x_viph_domain_domain</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sn_adm_pmarty</sys_created_by>
+            <sys_created_on>2022-07-13 05:42:56</sys_created_on>
+            <sys_id>a05dcf931ba055109cd0117a3b4bcb6b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>certification_state</sys_name>
+            <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+            <sys_update_name>sys_choice_x_viph_domain_domain_certification_state</sys_update_name>
+            <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+            <sys_updated_on>2022-07-13 05:42:56</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>certification_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not executed</label>
+            <language>en</language>
+            <name>x_viph_domain_domain</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>sn_adm_pmarty</sys_created_by>
+            <sys_created_on>2022-07-13 05:42:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ddc43931ba055109cd0117a3b4bcb9b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+            <sys_updated_on>2022-07-13 05:43:12</sys_updated_on>
+            <value>not_executed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>certification_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Required</label>
+            <language>en</language>
+            <name>x_viph_domain_domain</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>sn_adm_pmarty</sys_created_by>
+            <sys_created_on>2022-07-13 05:43:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>385d8f531ba055109cd0117a3b4bcb94</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+            <sys_updated_on>2022-07-13 05:44:08</sys_updated_on>
+            <value>required</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>certification_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Performed</label>
+            <language>en</language>
+            <name>x_viph_domain_domain</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>sn_adm_pmarty</sys_created_by>
+            <sys_created_on>2022-07-13 05:45:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>32cd8fd31ba055109cd0117a3b4bcb8d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+            <sys_updated_on>2022-07-13 05:45:08</sys_updated_on>
+            <value>performed</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

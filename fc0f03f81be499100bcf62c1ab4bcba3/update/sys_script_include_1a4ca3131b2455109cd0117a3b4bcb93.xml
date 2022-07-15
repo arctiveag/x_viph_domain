@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_viph_domain.ViforDOM_CertificationHelper</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>ViforDOM_CertificationHelper</name>
+        <script><![CDATA[var ViforDOM_CertificationHelper = Class.create();
+ViforDOM_CertificationHelper.prototype = {
+  initialize: function () {},
+
+  startDomainDeactivateCertification: function (domainIdArr) {
+    this.setDomainsToSpecificCertState(domainIdArr, "required");
+
+    var sysAutoGr = new GlideRecord("sysauto");
+    if(sysAutoGr.get('5ea5bbd71b2455109cd0117a3b4bcbd0')){
+		SncTriggerSynchronizer.executeNow(sysAutoGr);
+	}
+  },
+
+  setDomainsToSpecificCertState: function (domains, state) {
+    var domainGr = new GlideRecord("x_viph_domain_domain");
+    domainGr.addQuery("active", true);
+
+    if (Array.isArray(domains)) {
+      domainGr.addQuery("id", "IN", domains.join(","));
+    } else {
+      domainGr.addQuery("id", domains);
+    }
+
+    domainGr.query();
+    while (domainGr.next()) {
+      domainGr.setValue("certification_state", state);
+      domainGr.update();
+    }
+  },
+
+  type: "ViforDOM_CertificationHelper",
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-13 07:58:22</sys_created_on>
+        <sys_id>1a4ca3131b2455109cd0117a3b4bcb93</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>ViforDOM_CertificationHelper</sys_name>
+        <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+        <sys_update_name>sys_script_include_1a4ca3131b2455109cd0117a3b4bcb93</sys_update_name>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-13 10:13:03</sys_updated_on>
+    </sys_script_include>
+</record_update>

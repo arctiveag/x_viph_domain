@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_kmf_crypto_caller_policy">
+    <sys_kmf_crypto_caller_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <approval_type/>
+        <crypto_module display_value="com_snc_core_automation_connection_credential_glideencrypter">550cd0b07722201099808d1168106121</crypto_module>
+        <crypto_spec/>
+        <instance_recipient/>
+        <owner>f318a75fdb6bcc54b847ac44d4961917</owner>
+        <policy_name>AutoGen-script-81fd2be1c7133010bb93c49af4c26071-global.com_snc_core_automation_connection_credential_glideencrypter</policy_name>
+        <result>reject</result>
+        <script_hash>fc2QgswiNL4D+mnF+b154ZNnCsKYXidftr8sMx8TTPY=</script_hash>
+        <script_table>sys_script_include</script_table>
+        <sys_class_name>sys_kmf_crypto_caller_policy</sys_class_name>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-15 10:40:18</sys_created_on>
+        <sys_id>0094aac01b7cd5109cd0117a3b4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AutoGen-script-81fd2be1c7133010bb93c49af4c26071-global.com_snc_core_automation_connection_credential_glideencrypter</sys_name>
+        <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+        <sys_update_name>sys_kmf_crypto_caller_policy_0094aac01b7cd5109cd0117a3b4bcb4e</sys_update_name>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-15 10:40:18</sys_updated_on>
+        <target_role/>
+        <target_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</target_scope>
+        <target_script>81fd2be1c7133010bb93c49af4c26071</target_script>
+        <type>1</type>
+        <used>false</used>
+    </sys_kmf_crypto_caller_policy>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_description___category_tags" label="description&#9;domain&#9;weight&#9;severity&#9;timestamp&#9;misp_category&#9;tags" language="en" table="x_viph_domain_terreactive_malicious_domains">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_description___category_tags</element>
+            <help/>
+            <hint/>
+            <label>description	domain	weight	severity	timestamp	misp_category	tags</label>
+            <language>en</language>
+            <name>x_viph_domain_terreactive_malicious_domains</name>
+            <plural>description	domain	weight	severity	timestamp	misp_category	tags</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sn_adm_pmarty</sys_created_by>
+            <sys_created_on>2022-07-07 12:52:41</sys_created_on>
+            <sys_id>0d26b1a11b685d109cd0117a3b4bcb12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>description	domain	weight	severity	timestamp	misp_category	tags</sys_name>
+            <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+            <sys_update_name>sys_documentation_x_viph_domain_terreactive_malicious_domains_u_description___category_tags_en</sys_update_name>
+            <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+            <sys_updated_on>2022-07-07 12:52:41</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

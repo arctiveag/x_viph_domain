@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Domain Whitelisting">20508b751be89d109cd0117a3b4bcb6f</sc_cat_item>
+        <sc_category display_value="ServiceNow">04bf683edbd0c010d436890b069619e0</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-08 12:55:54</sys_created_on>
+        <sys_id>ca700f751be89d109cd0117a3b4bcb50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ServiceNow.</sys_name>
+        <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+        <sys_update_name>sc_cat_item_category_ca700f751be89d109cd0117a3b4bcb50</sys_update_name>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-08 12:55:54</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

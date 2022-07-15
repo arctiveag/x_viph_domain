@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="6d948e6d1b685d109cd0117a3b4bcb25" sys_domain="global" table="x_viph_domain_github_known_free_email_domains" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_domain</element>
+            <position>0</position>
+            <sys_created_by>sn_adm_pmarty</sys_created_by>
+            <sys_created_on>2022-07-07 13:55:47</sys_created_on>
+            <sys_id>e9948ead1b685d109cd0117a3b4bcbef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_viph_domain_github_known_free_email_domains" sys_domain="global" view="Default view">6d948e6d1b685d109cd0117a3b4bcb25</sys_ui_section>
+            <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+            <sys_updated_on>2022-07-07 13:55:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_viph_domain_github_known_free_email_domains</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>sn_adm_pmarty</sys_created_by>
+            <sys_created_on>2022-07-07 13:55:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6d948e6d1b685d109cd0117a3b4bcb25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_viph_domain_github_known_free_email_domains</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+            <sys_update_name>sys_ui_section_6d948e6d1b685d109cd0117a3b4bcb25</sys_update_name>
+            <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+            <sys_updated_on>2022-07-07 13:55:47</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</application>
+        <file_path/>
+        <instance_id>f318a75fdb6bcc54b847ac44d4961917</instance_id>
+        <instance_name>vifortest</instance_name>
+        <name>sys_ui_section_6d948e6d1b685d109cd0117a3b4bcb25</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="6d948e6d1b685d109cd0117a3b4bcb25" sys_domain="global" table="x_viph_domain_github_known_free_email_domains" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_domain</element><position>0</position><sys_created_by>sn_adm_pmarty</sys_created_by><sys_created_on>2022-07-07 13:55:47</sys_created_on><sys_id>e9948ead1b685d109cd0117a3b4bcbef</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_viph_domain_github_known_free_email_domains" sys_domain="global" view="Default view">6d948e6d1b685d109cd0117a3b4bcb25</sys_ui_section><sys_updated_by>sn_adm_pmarty</sys_updated_by><sys_updated_on>2022-07-07 13:55:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_viph_domain_github_known_free_email_domains</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>sn_adm_pmarty</sys_created_by><sys_created_on>2022-07-07 13:55:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6d948e6d1b685d109cd0117a3b4bcb25</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_viph_domain_github_known_free_email_domains</sys_name><sys_overrides/><sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package><sys_policy/><sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope><sys_update_name>sys_ui_section_6d948e6d1b685d109cd0117a3b4bcb25</sys_update_name><sys_updated_by>sn_adm_pmarty</sys_updated_by><sys_updated_on>2022-07-07 13:55:47</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-565518439</payload_hash>
+        <record_name>Github Known Free Email Domains</record_name>
+        <reverted_from/>
+        <source>340f03f81be499100bcf62c1ab4bcba6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-07 13:55:47</sys_created_on>
+        <sys_id>e5948ead1b685d109cd0117a3b4bcbf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181d8f2014a0000001</sys_recorded_at>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-07 13:55:47</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>ed948ead48685d105e834f92090fb9f0</update_guid>
+        <update_guid_history>ed948ead48685d105e834f92090fb9f0:-565518439,ad948e6dc4685d108cfe3646225ae628:-921704862</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-07 15:08:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>4089fdfcf4b34b39992e4a98b510f859</sys_id>
+        <sys_metadata>6d948e6d1b685d109cd0117a3b4bcb25</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_viph_domain_github_known_free_email_domains</sys_name>
+        <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+        <sys_parent display_value="">0a844ead1b685d109cd0117a3b4bcb4f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+        <sys_scope_delete display_value="">05268b3664014d7a8a31eaf15a7282e4</sys_scope_delete>
+        <sys_update_name>sys_ui_section_6d948e6d1b685d109cd0117a3b4bcb25</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_6d948e6d1b685d109cd0117a3b4bcb25">e5948ead1b685d109cd0117a3b4bcbf1</sys_update_version>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-07 15:08:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

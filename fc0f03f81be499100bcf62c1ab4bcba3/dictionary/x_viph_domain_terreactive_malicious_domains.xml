@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="TerreActive Malicious Domains" max_length="40" name="x_viph_domain_terreactive_malicious_domains" sizeclass="21984" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=comment" label="comment" max_length="862" name="u_comment" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=description" label="description" max_length="45" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=description&#9;domain&#9;weight&#9;severity&#9;timestamp&#9;misp_category&#9;tags" label="description&#9;domain&#9;weight&#9;severity&#9;timestamp&#9;misp_category&#9;tags" max_length="40" name="u_description___category_tags" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=domain" label="domain" max_length="40" name="u_domain" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=first_seen" label="first_seen" max_length="40" name="u_first_seen" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=info" label="info" max_length="40" name="u_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=last_seen" label="last_seen" max_length="40" name="u_last_seen" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=misp_category" label="misp_category" max_length="40" name="u_misp_category" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=organisation" label="organisation" max_length="40" name="u_organisation" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=popularity" label="popularity" max_length="40" name="u_popularity" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=severity" label="severity" max_length="40" name="u_severity" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=tags" label="tags" max_length="40" name="u_tags" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=timestamp" label="timestamp" max_length="40" name="u_timestamp" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=value" label="value" max_length="40" name="u_value" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=weight" label="weight" max_length="40" name="u_weight" type="string"/>
+    </element>
+</database>

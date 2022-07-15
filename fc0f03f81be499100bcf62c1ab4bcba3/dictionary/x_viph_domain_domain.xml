@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Domain" max_length="40" name="x_viph_domain_domain" sizeclass="4754" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element choice="1" default="not_executed" label="Certification State" max_length="40" name="certification_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Not executed" sequence="1" value="not_executed"/>
+                <element inactive_on_update="false" label="Required" sequence="2" value="required"/>
+                <element inactive_on_update="false" label="Performed" sequence="3" value="performed"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="200" name="description" type="string"/>
+        <element choice="1" label="Designation" max_length="40" name="designation" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Blacklisted" sequence="1" value="blacklisted"/>
+                <element inactive_on_update="false" label="Whitelisted" sequence="2" value="whitelisted"/>
+                <element inactive_on_update="false" label="Used" sequence="3" value="used"/>
+            </choice>
+        </element>
+        <element label="ID" max_length="120" name="id" type="string"/>
+        <element label="Last Certification" max_length="32" name="last_certification" reference="cert_element" type="reference"/>
+        <element label="Last Updated" max_length="40" name="last_updated" type="glide_date_time"/>
+        <element label="Name" max_length="120" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Severity" max_length="40" name="severity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="172.64.32.69" sequence="0" value="172.64.32.69"/>
+                <element inactive_on_update="false" label="critical" sequence="0" value="critical"/>
+                <element inactive_on_update="false" label="de&#9;first_seen=27.01.2022 10:21&#9;industry=" sequence="0" value="de&#9;first_seen=27.01.2022 10:21&#9;industry="/>
+                <element inactive_on_update="false" label="pe&quot;" sequence="0" value="pe&quot;"/>
+                <element inactive_on_update="false" label="Low" sequence="1" value="low"/>
+                <element inactive_on_update="false" label="Medium" sequence="2" value="medium"/>
+                <element inactive_on_update="false" label="High" sequence="3" value="high"/>
+            </choice>
+        </element>
+        <element choice="1" label="Source" max_length="40" name="source" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Github" sequence="1" value="github"/>
+                <element inactive_on_update="false" label="TerreActive" sequence="2" value="terreactive"/>
+                <element inactive_on_update="false" label="Form (SN)" sequence="3" value="form_sn"/>
+                <element inactive_on_update="false" label="Hubspot Knowledge" sequence="4" value="hubspot"/>
+            </choice>
+        </element>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Known Free Email Domain" sequence="1" value="known_free_email"/>
+                <element inactive_on_update="false" label="Malicious Domain" sequence="2" value="malicious"/>
+                <element inactive_on_update="false" label="Look Alike Domain" sequence="3" value="look_alike"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="last_certification"/>
+        </index>
+    </element>
+</database>
