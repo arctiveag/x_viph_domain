@@ -6,6 +6,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=domain" label="domain" max_length="40" name="u_domain" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=first_seen" label="first_seen" max_length="40" name="u_first_seen" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=info" label="info" max_length="40" name="u_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ï»¿description" label="ï»¿description" max_length="40" name="u_ï__description" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=last_seen" label="last_seen" max_length="40" name="u_last_seen" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=misp_category" label="misp_category" max_length="40" name="u_misp_category" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=organisation" label="organisation" max_length="40" name="u_organisation" type="string"/>
