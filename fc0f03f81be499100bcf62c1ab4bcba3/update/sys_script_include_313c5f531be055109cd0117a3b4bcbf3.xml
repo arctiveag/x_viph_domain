@@ -35,6 +35,20 @@ ViforDOM_DomainHelper.prototype = {
 			domainGr.update();
 		}
 	},
+	
+	
+	getDomainSysIdByIDs: function(ids){
+		var domainSysIds = [];
+		
+		var domainGr = new GlideRecord('x_viph_domain_domain');
+		domainGr.addQuery('id', 'IN', ids);
+		domainGr.query();
+		
+		while(domainGr.next()){
+			domainSysIds.push(domainGr.getUniqueValue());
+		}
+		return domainSysIds;
+	},
 
 
 
@@ -46,13 +60,13 @@ ViforDOM_DomainHelper.prototype = {
         <sys_created_by>sn_adm_pmarty</sys_created_by>
         <sys_created_on>2022-07-13 06:56:29</sys_created_on>
         <sys_id>313c5f531be055109cd0117a3b4bcbf3</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>ViforDOM_DomainHelper</sys_name>
         <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
         <sys_update_name>sys_script_include_313c5f531be055109cd0117a3b4bcbf3</sys_update_name>
         <sys_updated_by>sn_adm_pmarty</sys_updated_by>
-        <sys_updated_on>2022-07-21 09:51:34</sys_updated_on>
+        <sys_updated_on>2022-07-21 14:10:34</sys_updated_on>
     </sys_script_include>
 </record_update>
