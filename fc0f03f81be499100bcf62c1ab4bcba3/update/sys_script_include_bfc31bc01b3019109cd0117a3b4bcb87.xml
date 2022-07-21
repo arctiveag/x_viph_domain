@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_viph_domain.ViforDOM_ExternalDomainHelper</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>ViforDOM_ExternalDomainHelper</name>
+        <script><![CDATA[var ViforDOM_ExternalDomainHelper = Class.create();
+ViforDOM_ExternalDomainHelper.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	isDomainBlacklisted: function(domain){
+
+		if(!domain){
+			domain = this.getParameter('sysparm_domain');
+		}
+
+		var domainGr = new GlideRecord('x_viph_domain_domain');
+		domainGr.addQuery('active', true);
+		domainGr.addQuery('name', domain);
+		domainGr.addQuery('designation', 'blacklisted');
+		domainGr.query();
+		
+		return domainGr.next() ? true : false;
+	},
+	
+
+    type: 'ViforDOM_ExternalDomainHelper'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>sn_adm_pmarty</sys_created_by>
+        <sys_created_on>2022-07-15 14:07:05</sys_created_on>
+        <sys_id>bfc31bc01b3019109cd0117a3b4bcb87</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>ViforDOM_ExternalDomainHelper</sys_name>
+        <sys_package display_value="Viforpharma Domains" source="x_viph_domain">fc0f03f81be499100bcf62c1ab4bcba3</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Viforpharma Domains">fc0f03f81be499100bcf62c1ab4bcba3</sys_scope>
+        <sys_update_name>sys_script_include_bfc31bc01b3019109cd0117a3b4bcb87</sys_update_name>
+        <sys_updated_by>sn_adm_pmarty</sys_updated_by>
+        <sys_updated_on>2022-07-18 06:35:28</sys_updated_on>
+    </sys_script_include>
+</record_update>

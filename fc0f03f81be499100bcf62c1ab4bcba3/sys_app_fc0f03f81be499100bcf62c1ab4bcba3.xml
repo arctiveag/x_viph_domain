@@ -29,15 +29,15 @@
         <sys_created_by>sn_adm_pmarty</sys_created_by>
         <sys_created_on>2022-07-05 11:25:30</sys_created_on>
         <sys_id>fc0f03f81be499100bcf62c1ab4bcba3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>sn_adm_pmarty</sys_updated_by>
-        <sys_updated_on>2022-07-15 08:45:14</sys_updated_on>
+        <sys_updated_on>2022-07-21 05:58:49</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </sys_app>
 </record_update>

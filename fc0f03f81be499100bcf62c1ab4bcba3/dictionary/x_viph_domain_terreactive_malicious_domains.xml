@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="TerreActive Malicious Domains" max_length="40" name="x_viph_domain_terreactive_malicious_domains" sizeclass="21984" type="collection">
+    <element extends="sys_import_set_row" label="TerreActive Malicious Domains" max_length="40" name="x_viph_domain_terreactive_malicious_domains" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=comment" label="comment" max_length="862" name="u_comment" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=description" label="description" max_length="45" name="u_description" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=description&#9;domain&#9;weight&#9;severity&#9;timestamp&#9;misp_category&#9;tags" label="description&#9;domain&#9;weight&#9;severity&#9;timestamp&#9;misp_category&#9;tags" max_length="40" name="u_description___category_tags" type="string"/>
